@@ -1,0 +1,38 @@
+<annotation>
+	<folder>2</folder>
+	<filename>25.png</filename>
+	<path>C:\Users\Aaron Liu\Desktop\2\25.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>4710423051096</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1032</xmin>
+			<ymin>494</ymin>
+			<xmax>1332</xmax>
+			<ymax>790</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>4710105030326</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>564</xmin>
+			<ymin>642</ymin>
+			<xmax>793</xmax>
+			<ymax>854</ymax>
+		</bndbox>
+	</object>
+</annotation>
