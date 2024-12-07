@@ -1,0 +1,17 @@
+Here’s the updated comparison table with total scores included in the last row:
+
+---
+
+| **Item**                        | **MogaNet**                                                                                      | **FastViT**                                                                                       | **EfficientNet**                                                                                 |
+|---------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Performance on Edge Hardware** | **7**: Moderate performance; computationally heavier due to middle-order interactions.          | **9**: Highly optimized for edge devices; low latency and fast inference on mobile and desktop GPUs. | **8**: Efficient but may require fine-tuning for edge hardware constraints.                     |
+| **Energy Efficiency**           | **7**: Reasonable power usage but not specifically optimized for edge environments.             | **9**: Excellent energy efficiency; designed for low-resource environments like mobile devices.   | **8**: Energy efficient but scaling parameters may require manual tuning for optimal results.   |
+| **Model Size and Parameter Efficiency** | **8**: Compact model with favorable parameter usage; smaller sizes outperform many competitors.  | **9**: Smaller model sizes with high parameter efficiency; optimized for memory usage.           | **8**: Compact and efficient but requires manual adjustment for balance between size and accuracy. |
+| **Scalability and Adaptability** | **8**: Highly scalable due to modular architecture and middle-order interaction modeling.       | **9**: Excellent scalability across tasks with minimal latency impact on edge devices.           | **9**: Outstanding scalability using the compound scaling method for depth, width, and resolution. |
+| **Task-Specific Versatility**   | **8**: Strong performance across various computer vision tasks but with higher resource demands. | **9**: Highly versatile, excelling in classification, detection, and segmentation tasks.          | **9**: Demonstrates strong transfer learning performance across multiple tasks.                 |
+| **Total Score**                 | **38/50**                                                                                       | **45/50**                                                                                        | **42/50**                                                                                      |
+
+---
+
+### Conclusion:
+**FastViT** emerges as the most suitable choice for Jetson Xavier NX due to its superior optimization for edge devices, energy efficiency, and task versatility.
